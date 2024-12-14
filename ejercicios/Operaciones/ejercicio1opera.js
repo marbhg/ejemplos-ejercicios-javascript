@@ -9,10 +9,10 @@ let multiplicacion = numero1 * numero2;
 let division = numero1 / numero2;
 
 //Muestro resultado de las operaciones 
-document.write("La suma de: " + numero1 + "y " + numero2 + "es igual a: " + suma + "<br>");
-document.write("La resta de: " + numero1 + "y " + numero2 + "es igual a: " + resta + "<br>");
-document.write("La multiplicacion de; " + numero1 + "y " + numero2 + "es igual a: " + multiplicacion + "<br>");
-document.write("La division de: " + numero1 + "y " + numero2 + "es igual a: " + division + "<br>");
+document.write("La suma de: " + numero1 + " y " + numero2 + " es igual a: " + suma + "<br>");
+document.write("La resta de: " + numero1 + " y " + numero2 + " es igual a: " + resta + "<br>");
+document.write("La multiplicacion de; " + numero1 + " y " + numero2 + " es igual a: " + multiplicacion + "<br>");
+document.write("La division de: " + numero1 + " y " + numero2 + " es igual a: " + division + "<br>");
 
 
 
