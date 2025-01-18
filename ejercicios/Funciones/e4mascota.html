@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Mascota</title>
+    <style>
+        #formularioMascota {
+            display: block; /* Muestra el formulario inicialmente */
+        }
+        #resultado {
+            display: none; /* Oculta el resultado inicialmente */
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Datos de una Mascota</h1>
+
+    <p>Crea un formulario web que permita a los usuarios registrar los datos de su mascota. 
+      El formulario debe incluir los siguientes campos:
+      Nombre de la mascota: El usuario debe poder ingresar el nombre de su mascota.
+      Edad en años: El usuario debe ingresar la edad de la mascota en años.
+      Tipo de mascota: El usuario debe seleccionar el tipo de mascota (gato, perro o pájaro) de un menú desplegable.
+      Al pulsar el botón enviar se deben mostrar los datos de la mascota.<p>
+
+        <form id="registrodeMascotas">
+          <label form="nombre">Nombre de la mascota:</label>
+          <input type="text" id="nombre" required>
+          <br><br>
+
+          <label form="edad">Edad:</label>
+         <input type="number" id="edad" required>
+         <br><br>
+         
+         <label for="tipo">Tipo de mascota:</label>
+         <select id="tipo" required>
+             <option value="">Seleccione...</option>
+             <option value="gato">Gato</option>
+             <option value="perro">Perro</option>
+             <option value="pajaro">Pájaro</option>
+         </select>
+         <br><br>
+
+         <button type="button" onclick="enviar">Enviar</button>
+<h2 id="resultado"></h2>
+
+
+        </form>
+
+        
+
+    
+    <script src="e4mascota.js"></script>
+
+
+
+</body>
+
+</html>
