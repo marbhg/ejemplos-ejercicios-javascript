@@ -22,11 +22,11 @@ let resultado = numero1 - numero2;
 document.getElementById("resultado").textContent = ("Resultado de la resta es " + resultado);
 
  //Cambiamos el boton de color sumar 
- document.getElementById("botonrestar").style.color = "blue";
+ document.getElementById("botonRestar").style.color = "blue";
 }
 
 // Mostramos la funcion Multiplicacion 
-function multiplicacion(){
+function multiplicar(){
   let numero1 = document.getElementById("numero1").valueAsNumber;
   let numero2 = document.getElementById("numero2").valueAsNumber;
 
@@ -35,12 +35,12 @@ let resultado = numero1 * numero2;
 document.getElementById("resultado").textContent("Resultado de la multiplicacion es " + resultado);
 
  //Cambiamos el boton de color sumar 
- document.getElementById("botonSumar").style.color = "blue";
+ document.getElementById("botonMultiplicar").style.color = "blue";
 
 }
 
 //Mostramos la funcion de la division 
-function division(){
+function dividir(){
   let numero1 = document.getElementById("numero1").valueAsNumber;
   let numero2 = document.getElementById("numero2").valueAsNumber;
 
@@ -49,5 +49,5 @@ function division(){
   document.getElementById("resultado").textContent("Resultado de la division es " + resultado);
 
    //Cambiamos el boton de color sumar 
-   document.getElementById("botonSumar").style.color = "blue";
+   document.getElementById("botonDividir").style.color = "blue";
 }
