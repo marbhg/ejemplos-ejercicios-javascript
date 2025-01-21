@@ -9,7 +9,6 @@ function calcularPrecioValidar() {
       document.getElementById('resultado').textContent = "Por favor, completa todos los campos obligatorios.";
      
   }
-
 }
 function calcularprecio(){
   const tipodehabitacion = document.getElementById("tipodehabitacion").ariaValueMax;

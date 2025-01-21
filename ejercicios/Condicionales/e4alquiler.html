@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <h1>Alquiler de coches</h1>
+
+<form id="alquiler">
+  <label id="tipodecoche">Tipo de coche:</label>
+  <select id="tipodecoche" required>
+  <option value="economico">Economico:</option>  
+  <option value="familiar">Familiar:</option>
+  <option value="lujo">Lujo:</option>
+  </select><br><br>
+
+<label form="numeroDias">Numero de dias:</label>
+<input type="number" required min="1" max="15">
+
+<button type="button" onclick="calcularPrecioAlquilerValidar()">Calcular Precio</button>
+</form>
+
+<div id="resultado"></div>
+
+
+
+</form>
+
+    <script src="e4alquiler.js"></script>
+
+
+
+</body>
+
+</html>
