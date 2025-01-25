@@ -25,3 +25,5 @@ function obtenerPlaneta(numero) {
     const planeta = listaPlanetas[numero - 1]; // Restamos 1 para ajustar el índice (0-8)
     return planeta;
 }
+
+
